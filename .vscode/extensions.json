@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "christian-kohler.npm-intellisense",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "wix.vscode-import-cost",
+    "eamodio.gitlens",
+    "streetsidesoftware.code-spell-checker",
+    "wmaurer.change-case",
+    "andrewmcgoveran.react-component-generator"
+  ]
+}

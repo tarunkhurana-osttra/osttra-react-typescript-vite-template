@@ -1,0 +1,20 @@
+.eslintrc.cjs
+jest.config.ts
+jest.setup.ts
+vite.config.ts
+node_modules
+tsconfig.json
+tsconfig.node.json
+.env
+.env.local
+.env.development
+.env.production
+public/*
+.vscode/*
+.prettierrc
+
+# Build products
+build/
+dist/
+coverage/
+fixtures/
