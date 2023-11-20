@@ -5,6 +5,7 @@ import './App.css'
 import { Button, Input } from './components'
 //import Login from '@/pages/Login'
 
+const hello = 'ddsad'
 function App() {
   const [count, setCount] = useState(1)
 
@@ -13,7 +14,7 @@ function App() {
       {/* <Login /> */}
       <div>
         <Input />
-        <Button />
+        <Button label="hello" />
         <a data-testid="vite-logo" href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
