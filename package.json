@@ -14,12 +14,12 @@
     "pre-push": "npm test && npm run build",
     "format": "prettier --write .",
     "start:storybook": "storybook dev -p 6006",
-    "build:storybook": "storybook build"
+    "build:storybook": "storybook build",
+    "type-check": "tsc --noEmit"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
-      "npm run lint:fix",
-      "tsc"
+      "npm run lint:fix"
     ]
   },
   "dependencies": {

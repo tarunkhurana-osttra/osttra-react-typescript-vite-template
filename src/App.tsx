@@ -5,7 +5,6 @@ import './App.css'
 import { Button, Input } from './components'
 //import Login from '@/pages/Login'
 
-const hello = 'ddsad'
 function App() {
   const [count, setCount] = useState(1)
 
