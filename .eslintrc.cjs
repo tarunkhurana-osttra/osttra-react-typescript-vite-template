@@ -4,6 +4,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'prettier',
     'prettier/prettier',
@@ -12,7 +13,7 @@ module.exports = {
     'plugin:testing-library/react',
   ],
   parser: '@typescript-eslint/parser',
-  plugins: ['react-refresh', 'jest'],
+  plugins: ['react-refresh', '@typescript-eslint', 'jest'],
   rules: {
     'react-refresh/only-export-components': [
       'warn',
@@ -20,6 +21,7 @@ module.exports = {
     ],
     'max-lines': [1, { max: 350 }],
     'no-console': 'error',
+    'react/react-in-jsx-scope': 0,
     'testing-library/await-async-queries': 'error',
     'testing-library/no-await-sync-queries': 'error',
     'testing-library/no-debugging-utils': 'warn',

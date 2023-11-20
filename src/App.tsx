@@ -13,11 +13,11 @@ function App() {
       {/* <Login /> */}
       <div>
         <Input />
-        <Button label="hello" />
-        <a data-testid="vite-logo" href="https://vitejs.dev" target="_blank">
+        <Button />
+        <a data-testid="vite-logo" href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a data-testid="react-logo" href="https://react.dev" target="_blank">
+        <a data-testid="react-logo" href="https://react.dev" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
