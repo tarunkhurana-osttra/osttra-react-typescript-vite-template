@@ -24,6 +24,6 @@
       "@/*": ["./src/*", "./build/*", "./.storybook/*"]
     }
   },
-  "include": ["src", "jest.setup.ts", "jest.config.ts"],
+  "include": ["src", "vitest.setup.ts", "vittest.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

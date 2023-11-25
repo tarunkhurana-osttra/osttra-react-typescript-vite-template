@@ -9,11 +9,11 @@ module.exports = {
     'prettier',
     'prettier/prettier',
     'plugin:prettier/recommended',
-    'plugin:jest/recommended',
+    'plugin:vitest/recommended',
     'plugin:testing-library/react',
   ],
   parser: '@typescript-eslint/parser',
-  plugins: ['react-refresh', '@typescript-eslint', 'jest'],
+  plugins: ['react-refresh', '@typescript-eslint', 'vitest'],
   rules: {
     'react-refresh/only-export-components': [
       'warn',
@@ -22,6 +22,7 @@ module.exports = {
     'max-lines': [1, { max: 350 }],
     'no-console': 'error',
     'react/react-in-jsx-scope': 0,
+    'react/prop-types': 0,
     'testing-library/await-async-queries': 'error',
     'testing-library/no-await-sync-queries': 'error',
     'testing-library/no-debugging-utils': 'warn',
