@@ -13,6 +13,11 @@ module.exports = {
     'plugin:testing-library/react',
   ],
   parser: '@typescript-eslint/parser',
+  settings: {
+    react: {
+      version: 'detect'
+    }
+  },
   plugins: ['react-refresh', '@typescript-eslint', 'vitest'],
   rules: {
     'react-refresh/only-export-components': [

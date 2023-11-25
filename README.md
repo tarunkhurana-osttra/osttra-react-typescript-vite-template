@@ -10,7 +10,7 @@ This template provides a minimal setup to get working with React and Typescript 
   - "react-dom"
   - "react-router-dom"
 
-- Unit Testing support (Jest with React Testing Library)
+- Unit Testing support (Vitest with React Testing Library)
 - ESLint
 - Prettier
 - StoryBook (optional)
